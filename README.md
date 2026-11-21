@@ -27,15 +27,10 @@ My projects are tested, evaluated on held-out data, and honest about their limit
 
 > **Answers you can check, refusals you can trust.** RAGLens answers questions about banking regulation. Every sentence cites the exact source sentence it came from, and when the documents don't cover a question, it says "I don't know".
 
-```mermaid
-flowchart LR
-    Q[Question] --> R[Hybrid retrieval<br/>BM25 + FAISS, fused with RRF]
-    R --> X[Optional<br/>cross-encoder rerank]
-    X --> G{Learned<br/>refusal gate}
-    G -- evidence too weak --> N["I don't know"]
-    G -- answerable --> L[LLM]
-    L --> A[Answer with<br/>sentence-level citations]
-```
+<p align="center">
+  <b>Question</b> → <b>Hybrid retrieval</b> (BM25 + FAISS, fused with RRF) → <b>Optional rerank</b> (cross-encoder) → <b>Learned refusal gate</b> → <b>LLM</b> → <b>Answer with sentence-level citations</b><br>
+  <sub>If the gate finds the evidence too weak, RAGLens answers "I don't know" without calling the LLM.</sub>
+</p>
 
 | Result (held-out data) | Value |
 |---|---|
