@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Ronith Bandaru, ML and Data Engineer, M.Sc. Big Data and AI, Berlin">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2027"/>
+      <stop offset="0.5" stop-color="#203a43"/>
+      <stop offset="1" stop-color="#2c5364"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="220" rx="16" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.07" stroke-width="1" fill="none">
+    <path d="M0 170 C 200 130, 400 210, 600 170 S 1000 130, 1200 170"/>
+    <path d="M0 190 C 220 150, 420 230, 620 190 S 1020 150, 1200 190"/>
+  </g>
+  <g fill="#7fd1c7" fill-opacity="0.35">
+    <circle cx="1040" cy="60" r="5"/><circle cx="1100" cy="95" r="4"/><circle cx="1010" cy="120" r="3"/>
+    <circle cx="1130" cy="45" r="3"/><circle cx="1075" cy="140" r="4"/>
+  </g>
+  <g stroke="#7fd1c7" stroke-opacity="0.3" stroke-width="1.5">
+    <line x1="1040" y1="60" x2="1100" y2="95"/><line x1="1100" y1="95" x2="1075" y2="140"/>
+    <line x1="1040" y1="60" x2="1010" y2="120"/><line x1="1040" y1="60" x2="1130" y2="45"/>
+    <line x1="1010" y1="120" x2="1075" y2="140"/>
+  </g>
+  <text x="600" y="108" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700">Ronith Bandaru</text>
+  <text x="600" y="150" text-anchor="middle" fill="#cfe3e8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20">ML &amp; Data Engineer  ·  M.Sc. Big Data &amp; AI  ·  Berlin</text>
+</svg>

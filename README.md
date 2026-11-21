@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f2027,50:203a43,100:2c5364&text=Ronith%20Bandaru&fontColor=ffffff&fontSize=46&fontAlignY=36&desc=ML%20%26%20Data%20Engineer%20%C2%B7%20M.Sc.%20Big%20Data%20%26%20AI%20%C2%B7%20Berlin&descAlignY=58&descSize=16" alt="Ronith Bandaru" width="100%">
+  <img src="banner.svg" alt="Ronith Bandaru, ML and Data Engineer, M.Sc. Big Data and AI, Berlin" width="100%">
 </p>
 
 <p align="center">
